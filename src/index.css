@@ -11,3 +11,42 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+:root {
+  font-family:Calibri,Arial;
+  font-size:14px;
+  line-height:1.6rem;
+  text-align:justify;
+}
+
+.paper {
+  width: 1050px;
+}
+
+.mx-auto {
+margin-left: auto;
+margin-right: auto;
+}
+
+.p-3 {
+  padding: 3rem;
+}
+
+.mx-1 {
+  margin-left:0.5rem;
+  margin-right:0.5rem;
+ }
+
+.border-solid {
+  border-style:solid;
+}
+
+.border-1 {
+  border-width: 1;
+}

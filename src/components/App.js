@@ -15,12 +15,16 @@ function App() {
       <div id="root">
         <div className='paper mx-auto p-3'>
           <Paper elevation={3}>
-            
             <Header />
+
             <ContactInfo />
+
             <Skills />
+
             <Projects />
+
             <Experience />
+            
             <Education />
             
           </Paper>

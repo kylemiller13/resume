@@ -1,11 +1,11 @@
 import React from 'react';
 import {Paper} from '@material-ui/core';
-import Header from './Header.js'
-import Skills from './Skills';
-import ContactInfo from './ContactInfo';
-import Projects from './Projects.js';
-import Experience from './Experience.js';
-import Education from './Education.js';
+import Header from './sections/Header';
+import Skills from './sections/Skills';
+import ContactInfo from './sections/ContactInfo';
+import Projects from './sections/Projects.js';
+import Experience from './sections/Experience.js';
+import Education from './sections/Education.js';
 
 
 

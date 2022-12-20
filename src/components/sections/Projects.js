@@ -8,8 +8,8 @@ function Projects() {
         <List type="ordered"  style={{ paddingTop: 0 }}>
           <ListItem style={{ paddingBottom: 0 }}><Link href="https://kylesweathersite.netlify.app/"><strong>Weather Site</strong></Link></ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>ReactJS</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• A weather website where a user can choose a selected city or enter the desired place.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Uses OpenWeatherMap API to display data for today’s forecast and a six-day future forecast.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• A website that allows a user to select a specific city or enter a desired location to get weather information.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• The OpenWeatherMap API is used to display data for the current forecast and a forecast for the next seven days.</ListItem>
         </List>
     </div>
   );

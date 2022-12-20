@@ -1,59 +1,48 @@
 import React from 'react';
-import { Typography, Button } from '@material-ui/core';
+import { Link, } from '@material-ui/core';
+import { makeStyles } from '@material-ui/core/styles';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import PhoneIcon from "@material-ui/icons/Phone";
 import GitHubIcon from "@material-ui/icons/GitHub";
 import EmailIcon from '@material-ui/icons/Email';
 
+const useStyles = makeStyles({
+  iconsContainer: {
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
+  iconsIcon: {
+    marginRight: 8,
+  },
+});
 
 function ContactInfo() {
+  const classes = useStyles();
   return (
-    <Typography align="center">
-      <Button
+    <div className={classes.iconsContainer}>
+      <Link
         href="https://www.linkedin.com/in/kyleshigerumiller/"
-        startIcon={<LinkedInIcon />}
-        variant="contained"
-        color="primary"
-        size="small"
-        style={{backgroundColor: '#0077B5'}}
       >
-      LinkedIn
-      </Button>
-      <span className="mx-1"></span>
-      <Button
-        href="tel:310-850-1762"
-        startIcon={<PhoneIcon />}
-        variant="contained"
-        color="primary"
-        size="small"
-        style={{backgroundColor: '#32CD32'}}
-      >
-      310-850-1762
-      </Button>
-      <span className="mx-1"></span>
-      <Button
+      <LinkedInIcon fontSize="large"/>  
+      </Link>
+      <span className="mx-1">•</span>
+      <PhoneIcon className={classes.iconsIcon}fontSize="medium"/>
+      <span>310-850-1762 </span>
+      <span className="mx-1">•</span>
+      <Link
         href="https://github.com/kylemiller13"
-        startIcon={<GitHubIcon />}
-        variant="contained"
-        color="secondary"
-        size="small"
-        style={{backgroundColor: '#000000'}}
+        style={{ color: 'black' }}
       >
-      GitHub
-      </Button>
-      <span className="mx-1"></span>
-      <Button
-        href="mailto:millerkyle85@gmail.com"
-        type="email"
-        startIcon={<EmailIcon />}
-        variant="contained"
-        color="secondary"
-        size="small"
-        style={{backgroundColor: '#FF0000'}}
-      >
-      Email
-      </Button>
-    </Typography>
+      <GitHubIcon fontSize="medium" />  
+      </Link>
+      <span className="mx-1">•</span>
+      <EmailIcon 
+      className={classes.iconsIcon}
+      fontSize="medium"
+      style={{ color: 'red' }}/>
+      <span>millerkyle85@gmail.com</span>
+    </div>
   );
 }
 

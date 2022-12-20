@@ -1,5 +1,4 @@
 import React from 'react';
-import {Paper} from '@material-ui/core';
 import Header from './sections/Header';
 import Skills from './sections/Skills';
 import ContactInfo from './sections/ContactInfo';
@@ -13,8 +12,8 @@ function App() {
   return (
     <React.Fragment>
       <div id="root">
-        <div className='paper mx-auto p-3'>
-          <Paper elevation={3}>
+        <div className='paper mx-auto p-3' >
+
             <Header />
 
             <ContactInfo />
@@ -26,8 +25,6 @@ function App() {
             <Experience />
             
             <Education />
-            
-          </Paper>
         </div>
       </div>
     </React.Fragment>

@@ -5,7 +5,7 @@ function Header() {
   return (
     <div>
       <Typography align="center" variant="h4"><strong>Kyle Miller</strong></Typography>
-      <Typography align="center" variant="h4">Frontend Developer</Typography>
+      <Typography align="center" variant="h4">Software Engineer</Typography>
     </div>
   );
 }

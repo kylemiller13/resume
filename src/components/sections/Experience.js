@@ -13,9 +13,10 @@ function Experience() {
             </ListItemSecondaryAction>
           </ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>Software Engineer Intern</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Developing Opine web application using responsive UI elements via React framework and Material UI.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Participating in daily scrum meetings, troubleshooting for continuous improvement, and adding features.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Daily scrums to design development workflow of tasks.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Developing the Opine web application using responsive UI elements and the React framework with Material UI.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Participating in daily scrum meetings to discuss progress and any issues that may arise.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Work to continuously improve the application by troubleshooting and adding new features.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Attended daily scrums to allow us to design and plan the workflow for our development tasks.</ListItem>
         </List>
     </div>
   );

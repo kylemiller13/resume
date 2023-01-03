@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Typography, List, ListItem, Divider, ListItemSecondaryAction, Button, Collapse } from '@material-ui/core';
 
 
+
 function Education() {
   const [expanded, setExpanded] = useState(false);
 
@@ -12,8 +13,8 @@ function Education() {
   return (
     <div>
       <Typography align="left" variant="h5"><strong>Education</strong></Typography>
-        <Divider variant="fullWidth" style={{ backgroundColor: '#000', }} />
-        <List type="ordered" style={{ paddingTop: 0 }}>
+        <Divider variant="fullWidth" style={{ backgroundColor: '#000' }} />
+        <List type="ordered" style={{ paddingTop: 0, borderBottom: '10px solid #87CEEB' }}>
           <ListItem style={{ paddingBottom: 0 }}><strong>Epicodus - Portland, OR</strong>
             <ListItemSecondaryAction style={{ top: 20 }}> 
               <Typography color="textSecondary">Jan 2022 - Oct 2022</Typography>

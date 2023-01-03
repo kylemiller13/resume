@@ -10,7 +10,8 @@ const useStyles = makeStyles({
   iconsContainer: {
     display: 'flex',
     alignItems: 'center',
-    justifyContent: 'center'
+    justifyContent: 'center',
+    backgroundColor: '#F2F3F5'
   },
   iconsIcon: {
     marginRight: 8,

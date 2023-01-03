@@ -50,3 +50,9 @@ margin-right: auto;
 .border-1 {
   border-width: 1;
 }
+
+.header{
+  border-top: 10px solid #87CEEB;
+  padding-top: 15px;
+  background-color: #F2F3F5;
+}

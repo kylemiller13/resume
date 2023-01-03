@@ -5,7 +5,7 @@ import ContactInfo from './sections/ContactInfo';
 import Projects from './sections/Projects.js';
 import Experience from './sections/Experience.js';
 import Education from './sections/Education.js';
-
+import Summary from './sections/Summary.js';
 
 
 function App() {
@@ -17,6 +17,8 @@ function App() {
             <Header />
 
             <ContactInfo />
+
+            <Summary />
 
             <Skills />
 

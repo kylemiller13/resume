@@ -4,11 +4,11 @@ import { Typography, List, ListItem, Divider, ListItemSecondaryAction, Button, C
 
 
 function Education() {
-  const [expanded, setExpanded] = useState(false);
+  // const [expanded, setExpanded] = useState(false);
 
-  const handleExpandClick = () => {
-    setExpanded(!expanded);
-  };
+  // const handleExpandClick = () => {
+  //   setExpanded(!expanded);
+  // };
 
   return (
     <div>
@@ -22,8 +22,8 @@ function Education() {
           </ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>Certificate in Web and Mobile Development</ListItem>
           <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Practiced coding 40+ hours/week</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Daily pair programming
-            <ListItemSecondaryAction style={{ top: 10 }}> 
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Daily pair programming</ListItem>
+            {/* <ListItemSecondaryAction style={{ top: 10 }}> 
               <Button
                 onClick={handleExpandClick}
                 aria-expanded={expanded}
@@ -31,15 +31,14 @@ function Education() {
               >
               {expanded ? 'Show less' : 'Show more'}
               </Button>
-            </ListItemSecondaryAction>
-          </ListItem>
-          <Collapse in={expanded} timeout="auto" unmountOnExit>
+            </ListItemSecondaryAction> */}
+          {/* <Collapse in={expanded} timeout="auto" unmountOnExit> */}
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Worked as a member of team projects</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Behavior Driven Development</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Agile environment</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Completed 1000+ hours of coding projects</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>✓ Technologies: Git, JavaScript, jQuery, React, Redux, Firebase, Ruby on Rails, MySQL, NPM, VS Code, and many more!</ListItem>
-          </Collapse>
+          {/* </Collapse> */}
           <ListItem style={{ paddingBottom: 0 }}><strong>Portland Community College - Portland, OR</strong>
             <ListItemSecondaryAction style={{ top: 20 }}> 
               <Typography color="textSecondary">Jan 2020 - Present</Typography>

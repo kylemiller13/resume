@@ -1,4 +1,5 @@
 {
+  "homepage" : "https://{kylemiller13}.github.io/{Resume}",
   "name": "my-resume",
   "version": "0.1.0",
   "private": true,

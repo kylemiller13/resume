@@ -13,10 +13,10 @@ function Experience() {
             </ListItemSecondaryAction>
           </ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>Software Engineer Intern</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Developed the Opine web application using responsive UI elements(Material UI) and React framework.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Participated in daily scrum meetings to discuss progress and any issues that may arise.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Worked to continuously improve the application by troubleshooting and adding new features.</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Attended daily scrums to allow us to design and plan the workflow for our development tasks.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Conceptualized and redesigned the Opine web application using responsive UI elements(Material UI) and React framework</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Engaged in daily scrum meetings to discuss progress and any issues that may arise</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Worked to continuously improve the application by troubleshooting, debugging, and adding new features</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Collaborated with team members to allow us to design and plan the workflow for our development tasks</ListItem>
         </List>
     </div>
   );

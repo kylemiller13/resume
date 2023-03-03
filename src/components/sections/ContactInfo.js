@@ -24,6 +24,7 @@ function ContactInfo() {
     <div className={classes.iconsContainer}>
       <Link
         href="https://www.linkedin.com/in/kyleshigerumiller/"
+        target="_blank"
       >
       <LinkedInIcon fontSize="large"/>  
       </Link>
@@ -33,6 +34,7 @@ function ContactInfo() {
       <span className="mx-1">•</span>
       <Link
         href="https://github.com/kylemiller13"
+        target="_blank"
         style={{ color: 'black' }}
       >
       <GitHubIcon fontSize="medium" />  

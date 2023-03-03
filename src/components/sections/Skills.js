@@ -28,7 +28,7 @@ function Skills() {
       </Box> */}
       </ListItem>
       <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• C# • C#.NET • JavaScript • Ruby on Rails • React • Test Driven Development • Material UI • Git • MySQL/PSQL • Firebase </ListItem>
-      <ListItem style={{ paddingTop: 0,  paddingBottom: 0, marginLeft: '20px' }}>• HTML • CSS/Bootstrap • Python </ListItem>
+      <ListItem style={{ paddingTop: 0,  paddingBottom: 0, marginLeft: '20px' }}>• HTML • CSS/Bootstrap • Python • Git </ListItem>
     </List>
     </div>
   );

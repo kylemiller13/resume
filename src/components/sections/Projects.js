@@ -8,7 +8,7 @@ function Projects() {
         <List type="ordered"  style={{ paddingTop: 0 }}>
           <ListItem style={{ paddingBottom: 0 }}><Link href="https://kylesweathersite.netlify.app/" target="_blank"><strong>Weather Site</strong></Link></ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>ReactJS</ListItem>
-          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• A website that enables users to obtain weather information by selecting a specific city, entering a desired location, or getting your current location.</ListItem>
+          <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• A website that displays weather information by selecting a specific city, entering a desired location, or getting your current location.</ListItem>
           <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• The OpenWeatherMap API is used to display data for the current forecast and a forecast for the next seven days.</ListItem>
           <ListItem style={{ paddingBottom: 0 }}><Link href="https://github.com/pangtodd/bike_gallery" target="_blank"><strong>Bike Gallery</strong></Link></ListItem>
           <ListItem style={{ paddingTop: 0, paddingBottom: 0, fontStyle: 'italic' }}>Ruby on Rails</ListItem>

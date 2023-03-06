@@ -19,7 +19,7 @@ function Education() {
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Practiced coding 40+ hours/week</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Collaborated with team members on group projects</ListItem>
             <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Daily pair programming</ListItem>
-          <ListItem style={{ paddingTop: 0,  paddingBottom: 0 }}><strong>A.A.S. in Computer Information Systems</strong></ListItem>
+          <ListItem style={{ paddingTop: 0,  paddingBottom: 0, fontStyle: 'italic' }}><strong>A.A.S. in Computer Information Systems</strong></ListItem>
 
           <ListItem style={{ paddingBottom: 0, paddingTop: 0 }}>Portland Community College - Portland, OR
             <ListItemSecondaryAction style={{ top: 7 }}> 

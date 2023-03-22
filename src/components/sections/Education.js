@@ -23,7 +23,7 @@ function Education() {
 
           <ListItem style={{ paddingBottom: 0, paddingTop: 0 }}>Portland Community College - Portland, OR
             <ListItemSecondaryAction style={{ top: 7 }}> 
-              <Typography color="textSecondary">Jan 2020 - Present</Typography>
+              <Typography color="textSecondary">Jan 2021 - Present</Typography>
             </ListItemSecondaryAction>
           </ListItem>
           <ListItem style={{ paddingTop: 0, marginLeft: '1em', paddingBottom: 0 }}>• Database development</ListItem>

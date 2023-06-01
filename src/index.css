@@ -27,6 +27,7 @@ code {
 
 .paper {
   width: 1050px;
+  min-height: 100vh;
 }
 
 .mx-auto {
@@ -55,4 +56,9 @@ margin-right: auto;
   border-top: 10px solid #87CEEB;
   padding-top: 15px;
   background-color: #F2F3F5;
+}
+
+@page {
+  size: auto; 
+  margin: 0;
 }
